@@ -90,28 +90,41 @@ public class Player : MonoBehaviour
         if (canLeft && LeftPressed)
         {
             transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
-            if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 270f, 0f)) < 1f)
-                transform.eulerAngles = new Vector3(0f, 90f, 0f);
+            transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 90f, 0f), 30f);
 
         }
         if (canRight && RightPressed)
         {
             transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
-            if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 1f)
-                transform.eulerAngles = new Vector3(0f, 270f, 0f);
+            transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 270f, 0f), 30f);
         }
     }
 
     public void Dash()
     {
+        StopCoroutine("dash");
         StartCoroutine("dash");
     }
 
     private IEnumerator dash()
     {
+        if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, -270f, 0f)) < 1f)
+            facingLeft = false;
+        else
+            facingLeft = true;
 
-        yield return new WaitForEndOfFrame();
+        print("facing left: " + facingLeft);
 
+        float dashBoost = .5f;
+
+        if (facingLeft)
+            dashBoost *= -.5f;
+
+        for (int i = 0; i < 20; i++)
+        {
+            transform.Translate(new Vector3(dashBoost, 0f, 0f), Space.World);
+            yield return new WaitForEndOfFrame();
+        }
     }
 
     void Attack_LightMelee(Player Them)
@@ -177,7 +190,11 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
+<<<<<<< HEAD
         if(canJump)
+=======
+        if (canJump)
+>>>>>>> Getting more mechanics to work. Dash.
             StartCoroutine("jump");
     }
 

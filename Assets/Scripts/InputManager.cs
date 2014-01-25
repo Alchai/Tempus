@@ -82,7 +82,8 @@ public class InputManager : MonoBehaviour
                 break;
             case COMMAND.DASH:
                 {
-
+                    playerScript.Dash();
+                    print("sending dash to playerscript");
                 }
                 break;
             case COMMAND.RANGED:

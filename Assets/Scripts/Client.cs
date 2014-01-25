@@ -50,8 +50,8 @@ public class Client : MonoBehaviour
     public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2)
     {
         Player theirPlayer = them.GetComponent<Player>();
-        print(them.name+" just received an input!");
-    
+        print(them.name + " just received an input!");
+
         if (!down_or_up)
             switch (index)
             {

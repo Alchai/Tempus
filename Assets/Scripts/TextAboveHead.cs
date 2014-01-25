@@ -19,7 +19,6 @@ public class TextAboveHead : MonoBehaviour
 
     public void DisplayText(GameObject player)
     {
-
         Font ArialFont = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");
         GameObject newtext = new GameObject();
         newtext.AddComponent<TextMesh>();
