@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     public Client client;
 
     public float dashSpeed = .5f;
-	public int dashFrames = 10, FramsForKnockback = 10;
+    public int dashFrames = 10, FramsForKnockback = 10;
 
 
 
@@ -99,20 +99,23 @@ public class Player : MonoBehaviour
             if (canLeft && LeftPressed)
             {
                 transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
-                transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 90f, 0f), 30f);
+                transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 90f, 0f), 45f);
             }
             if (canRight && RightPressed)
             {
                 transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
-                transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 270f, 0f), 30f);
+                transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 270f, 0f), 45f);
             }
         }
     }
 
     public void Dash()
     {
-        StopCoroutine("dash");
-        StartCoroutine("dash");
+        if (!isDashing)
+        {
+            StopCoroutine("dash");
+            StartCoroutine("dash");
+        }
     }
 
     private IEnumerator dash()
@@ -138,24 +141,24 @@ public class Player : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
     }
-	
-	public void KnockBack()
-	{
-		StartCoroutine("knockBack");
-	}
-	
-	private IEnumerator knockBack()
-	{
-		for(int i = 0; i < FramesForKnockback; i++) 
-		{
-			if(facingLeft)
-				gameObject.transform.Translate(new Vector3(-0.1f,0f,0f), Space.World);
-			else
-				gameObject.transform.Translate(new Vector3(0.1f,0f,0f), Space.World);
-			
-			yield return new WaitForEndOfFrame();
-		}
-	}
+
+    public void KnockBack()
+    {
+        StartCoroutine("knockBack");
+    }
+
+    private IEnumerator knockBack()
+    {
+        for (int i = 0; i < FramesForKnockback; i++)
+        {
+            if (facingLeft)
+                gameObject.transform.Translate(new Vector3(-0.1f, 0f, 0f), Space.World);
+            else
+                gameObject.transform.Translate(new Vector3(0.1f, 0f, 0f), Space.World);
+
+            yield return new WaitForEndOfFrame();
+        }
+    }
 
     void Attack_LightMelee(Player Them)
     {
