@@ -134,6 +134,24 @@ public class Player : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
     }
+	
+	public void KnockBack()
+	{
+		StartCoroutine("knockBack");
+	}
+	
+	private IEnumerator knockBack()
+	{
+		for(int i = 0; i < FramsForKnockback; i++) 
+		{
+			if(facingLeft)
+				gameObject.transform.Translate(new Vector3(-0.1f,0f,0f), Space.World);
+			else
+				gameObject.transform.Translate(new Vector3(0.1f,0f,0f), Space.World);
+			
+			yield return new WaitForEndOfFrame();
+		}
+	}
 
     void Attack_LightMelee(Player Them)
     {
