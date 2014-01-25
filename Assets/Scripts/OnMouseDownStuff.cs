@@ -51,11 +51,12 @@ public class OnMouseDownStuff : MonoBehaviour
             else if (Seconds > 0)
             {
                 Seconds -= Time.deltaTime;
-                Timer.guiText.text = Seconds.ToString("f0");
+                Timer.guiText.text = Seconds.ToString("f0"); 
             }
             if (Mathf.Round(Seconds) < 0)
             {
                 Timer.guiText.text = Seconds.ToString("f0");
+                Application.LoadLevel("TestBattle");
             }
         }
     }
@@ -82,9 +83,12 @@ public class OnMouseDownStuff : MonoBehaviour
         //de-select all others
         //change colors accordingly
         //change public currentSelection int to whichever you just chose
-        
-        client.networkView.RPC("SelectCharacter", RPCMode.Server, who, client.mySID);
-        
+        bool p1_p2 = false;
+        if (client.playerNum == 2)
+            p1_p2 = true;
+                                                
+        client.networkView.RPC("SelectCharacter", RPCMode.Server, who, client.mySID, p1_p2);
+
         if (who == "Character 1" && ChoiceLock == false)
         {
             currentSelection = 1;

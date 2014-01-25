@@ -132,7 +132,8 @@ public class Server : MonoBehaviour
                 else
                     player = s.p2;
 
-                networkView.RPC("SelectCharacter", player, who, seshID, p1_p2);
+                networkView.RPC("SelectCharacter", s.p1, who, seshID, p1_p2);
+                networkView.RPC("SelectCharacter", s.p2, who, seshID, p1_p2);
             }
 
     }
