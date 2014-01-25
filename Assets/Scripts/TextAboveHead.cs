@@ -15,6 +15,7 @@ public class TextAboveHead : MonoBehaviour
         p2 = GameObject.Find("Client");
 
         DisplayText(p1);
+		DisplayText(p2);
     }
 
     public void DisplayText(GameObject player)
@@ -25,7 +26,7 @@ public class TextAboveHead : MonoBehaviour
         newtext.GetComponent<TextMesh>().color = Color.white;
         newtext.GetComponent<TextMesh>().font = ArialFont;
         newtext.GetComponent<TextMesh>().renderer.material = ArialFont.material;
-        newtext.GetComponent<TextMesh>().text = SystemInfo.deviceName;
+        newtext.GetComponent<TextMesh>().text = "Player";
         newtext.transform.position = player.transform.position;
         newtext.transform.Translate(0f, 2f, 0f);
         newtext.transform.parent = player.transform;
