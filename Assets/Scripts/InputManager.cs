@@ -8,8 +8,8 @@ public class InputManager : MonoBehaviour
     private GameObject client, player;
     private bool leftDown, rightDown, downDown, upDown, jumpDown, attackDown, defendDown;
     private bool controllersConnected;
-    private bool leftWasDown, rightWasDown, downWasDown, upWasDown;
-    public enum COMMAND { LEFT, DOWN, UP, RIGHT, JUMP, ATTACK, DEFEND, INTERACT };
+    private bool leftWasDown, rightWasDown, downWasDown, upWasDown, lTriggerWasDown, rTriggerWasDown;
+    public enum COMMAND { LEFT, DOWN, UP, RIGHT, JUMP, ATTACK, DASH, RANGED, INTERACT };
     public bool isMyPlayer = false;
 
     #endregion
@@ -39,15 +39,7 @@ public class InputManager : MonoBehaviour
 
     void SendEvents(COMMAND cmdToSend, bool down_up)
     {
-        bool p1_p2;
-      
-        if (client.GetComponent<Client>().playerNum == 1)
-            p1_p2 = true;
-        else
-            p1_p2 = false;
-
-        client.networkView.RPC("SendInput", RPCMode.Server, (int)cmdToSend, down_up,
-            client.GetComponent<Client>().mySID, p1_p2);
+        client.networkView.RPC("SendInput", RPCMode.Server, (int)cmdToSend, down_up);
 
         StartCoroutine(delayInput(cmdToSend, down_up));
 
@@ -55,7 +47,6 @@ public class InputManager : MonoBehaviour
 
     public void ProcessInput(COMMAND cmdToSend, bool down_up)
     {
-        print("processed input: " + (int)cmdToSend);
         Player playerScript = player.GetComponent<Player>();
 
         switch (cmdToSend)
@@ -63,13 +54,13 @@ public class InputManager : MonoBehaviour
             case COMMAND.ATTACK:
 
             case COMMAND.LEFT:
-                if (!down_up)
+                if (down_up)
                     playerScript.LeftPressed = true;
                 else
                     playerScript.LeftPressed = false;
                 break;
             case COMMAND.RIGHT:
-                if (!down_up)
+                if (down_up)
                     playerScript.RightPressed = true;
                 else
                     playerScript.RightPressed = false;
@@ -77,6 +68,21 @@ public class InputManager : MonoBehaviour
 
             case COMMAND.JUMP:
                 playerScript.Jump();
+                break;
+            case COMMAND.ATTACK:
+                {
+
+                }
+                break;
+            case COMMAND.DASH:
+                {
+
+                }
+                break;
+            case COMMAND.RANGED:
+                {
+
+                }
                 break;
         }
     }
@@ -96,7 +102,9 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
             SendEvents(COMMAND.ATTACK, false);
         if (Input.GetKeyDown(KeyCode.X))
-            SendEvents(COMMAND.DEFEND, false);
+            SendEvents(COMMAND.RANGED, false);
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+            SendEvents(COMMAND.DASH, false);
 
         if (Input.GetKeyUp(KeyCode.LeftArrow))
             SendEvents(COMMAND.LEFT, true);
@@ -111,7 +119,9 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Z))
             SendEvents(COMMAND.ATTACK, true);
         if (Input.GetKeyUp(KeyCode.X))
-            SendEvents(COMMAND.DEFEND, true);
+            SendEvents(COMMAND.RANGED, true);
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+            SendEvents(COMMAND.DASH,  true);
 
         //Check controller input
         if (controllersConnected)
@@ -162,12 +172,40 @@ public class InputManager : MonoBehaviour
                 SendEvents(COMMAND.JUMP, false);
             if (Input.GetButtonDown("Fire1"))
                 SendEvents(COMMAND.ATTACK, false);
+            if (Input.GetButtonDown("Fire2"))
+                SendEvents(COMMAND.ATTACK, false);
+            if (Input.GetButtonDown("Fire3"))
+                SendEvents(COMMAND.RANGED, false);
+            //LTrigger
+            if (Input.GetAxisRaw("Axis9") > 0.0f)
+            {
+                SendEvents(COMMAND.DASH, false);
+                lTriggerWasDown = true;
+            }
+            else if (lTriggerWasDown)
+            {
+                SendEvents(COMMAND.DASH, true);
+                lTriggerWasDown =  false;
+            }
+            //RTrigger
+            if (Input.GetAxisRaw("Axis10") > 0.0f)
+            {
+                SendEvents(COMMAND.DASH, false);
+            }
+            else if (rTriggerWasDown)
+            {
+                SendEvents(COMMAND.DASH, true);
+                rTriggerWasDown = false;
+            }
 
             if (Input.GetButtonUp("Jump"))
                 SendEvents(COMMAND.JUMP, true);
             if (Input.GetButtonUp("Fire1"))
                 SendEvents(COMMAND.ATTACK, true);
-
+            if (Input.GetButtonUp("Fire2"))
+                SendEvents(COMMAND.ATTACK, true);
+            if (Input.GetButtonUp("Fire3"))
+                SendEvents(COMMAND.RANGED, true);
         }
     }
 

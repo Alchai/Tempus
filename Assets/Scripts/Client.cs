@@ -70,6 +70,15 @@ public class Client : MonoBehaviour
                 case 4:
                     them.GetComponent<Player>().Jump();
                     break;
+                case 5:
+                    //Attack here
+                    break;
+                case 6:
+                    //Dash here
+                    break;
+                case 7:
+                    //ranged here
+                    break;
                 default:
                     break;
             }
