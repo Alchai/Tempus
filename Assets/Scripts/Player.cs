@@ -28,7 +28,9 @@ public class Player : MonoBehaviour
     public Client client;
 
     public float dashSpeed = .5f;
-    public int dashFrames = 10;
+	public int dashFrames = 10, FramsForKnockback = 10;
+
+
 
     #endregion
 
