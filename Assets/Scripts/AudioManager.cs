@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
     System.Collections.Generic.Dictionary<string, AudioClip> sounds;
     System.Collections.Generic.Dictionary<string, AudioClip> music;
 
+    AudioSource p1Source, p2Source, mainSource;
+
 	// Use this for initialization
 	void Start () 
     {
@@ -50,6 +52,7 @@ public class AudioManager : MonoBehaviour
 
     private void updateBGM(float player1Weight, float player2Weight)
     {
-
+        p1Source.volume = player1Weight;
+        p2Source.volume = player2Weight;
     }
 }

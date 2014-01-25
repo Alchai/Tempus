@@ -35,15 +35,6 @@ public class Client : MonoBehaviour
         StartCoroutine(speedTick());
     }
 
-    [RPC]
-    public void SessionOver(int sID)
-    {
-        foreach (AnimationState anim in animation)
-        {
-            print(anim.name);
-        }
-    }
-
     private IEnumerator speedTick()
     {
         networkView.RPC("CalculateInputDelay", RPCMode.Server, Network.player);

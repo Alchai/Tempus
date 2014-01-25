@@ -51,8 +51,6 @@ public class InputManager : MonoBehaviour
 
         switch (cmdToSend)
         {
-            case COMMAND.ATTACK:
-
             case COMMAND.LEFT:
                 if (down_up)
                     playerScript.LeftPressed = true;
@@ -89,38 +87,38 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             SendEvents(COMMAND.LEFT, false);
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             SendEvents(COMMAND.DOWN, false);
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow)   || Input.GetKeyDown(KeyCode.W))
             SendEvents(COMMAND.UP, false);
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
             SendEvents(COMMAND.RIGHT, false);
         if (Input.GetKeyDown(KeyCode.Space))
             SendEvents(COMMAND.JUMP, false);
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.J))
             SendEvents(COMMAND.ATTACK, false);
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.K))
             SendEvents(COMMAND.RANGED, false);
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
             SendEvents(COMMAND.DASH, false);
 
-        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
             SendEvents(COMMAND.LEFT, true);
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S))
             SendEvents(COMMAND.DOWN, true);
-        if (Input.GetKeyUp(KeyCode.UpArrow))
+        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.W))
             SendEvents(COMMAND.UP, true);
-        if (Input.GetKeyUp(KeyCode.RightArrow))
+        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
             SendEvents(COMMAND.RIGHT, true);
         if (Input.GetKeyUp(KeyCode.Space))
             SendEvents(COMMAND.JUMP, true);
-        if (Input.GetKeyUp(KeyCode.Z))
+        if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.J))
             SendEvents(COMMAND.ATTACK, true);
-        if (Input.GetKeyUp(KeyCode.X))
+        if (Input.GetKeyUp(KeyCode.X) || Input.GetKeyUp(KeyCode.K))
             SendEvents(COMMAND.RANGED, true);
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
             SendEvents(COMMAND.DASH,  true);
 
         //Check controller input
