@@ -10,6 +10,7 @@ public class OnMouseDownStuff : MonoBehaviour
     public static bool ChoiceLock = false;
     public bool HasLocked = false;
     public static int currentSelection = 0;
+    private bool joinedlobby = false;
 
     GameObject Timer;
     GameObject LockButton;
@@ -20,6 +21,7 @@ public class OnMouseDownStuff : MonoBehaviour
     private Color MouseOverColor = new Color(0.75f, 0, 0);
 
     #endregion
+   
     void Start()
     {
         client = GameObject.Find("Client").GetComponent<Client>();
@@ -32,6 +34,7 @@ public class OnMouseDownStuff : MonoBehaviour
         Timer = GameObject.Find("Timer Text");
         LockButton = GameObject.Find("Lock Choices");
     }
+  
     void Update()
     {
         if (joinedlobby && !Network.isClient)
@@ -94,9 +97,9 @@ public class OnMouseDownStuff : MonoBehaviour
                 ChoiceLock = false;
         }
 
-       
+
     }
-    private bool joinedlobby = false;
+
     void OnMouseDown()
     {
         if (!ChoiceLock)
@@ -126,10 +129,6 @@ public class OnMouseDownStuff : MonoBehaviour
             }
         }
 
-
-        print(currentSelection);
-
-        //Main Menu
         if (tag == "Play" && !joinedlobby)
         {
             client.networkView.RPC("JoinLobby", RPCMode.Server, Network.player);
@@ -142,37 +141,12 @@ public class OnMouseDownStuff : MonoBehaviour
         if (tag == "Exit" || tag == "Exit Cube")
             Application.Quit();
 
-        //Lock Choices
         if (tag == "Lock Choices" && currentSelection > 0)
         {
             print("Locked");
             Select("Lock Choices");
 
         }
-
-
-
-        //THIS STUFF WILL BE MOVED TO THE SELECTION FUNCTIONS
-        //THIS STUFF WILL BE MOVED TO THE SELECTION FUNCTIONS
-        //THIS STUFF WILL BE MOVED TO THE SELECTION FUNCTIONS
-
-        ////HighLight Selected button
-        //Color SelectedColor = new Color(.6f, .8f, .6f, 1f);
-
-        //if (CharacterSelected1 && tag == "Character 1")
-        //    renderer.material.color = SelectedColor;
-
-        //if (CharacterSelected2 && tag == "Character 2")
-        //    renderer.material.color = SelectedColor;
-
-        //if (CharacterSelected3 && tag == "Character 3")
-        //    renderer.material.color = SelectedColor;
-
-        //if (CharacterSelected4 && tag == "Character 4")
-        //    renderer.material.color = SelectedColor;
-
-        //if (ChoiceLock && tag == "Lock Choices")
-        //    renderer.material.color = SelectedColor;
     }
 
     void OnMouseEnter()

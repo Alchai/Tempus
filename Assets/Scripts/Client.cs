@@ -94,6 +94,17 @@ public class Client : MonoBehaviour
 
     }
 
+    public void GameOver()
+    {
+        networkView.RPC("EndGame", RPCMode.Server, mySID);
+    }
+
+    [RPC]
+    public void EndGame(int mysID)
+    {
+
+    }
+
     [RPC]
     public void GetSessionID(NetworkPlayer player, int sID, int opponentCharChoice, int myCharChoice, int whichPlayerAmI)
     {
@@ -186,7 +197,7 @@ public class Client : MonoBehaviour
         {
             mybutton.transform.position = GameObject.Find("topleftplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 1;
-            
+
         }
         else if (who.Contains("2") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 2)
         {

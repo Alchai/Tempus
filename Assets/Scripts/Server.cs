@@ -137,6 +137,18 @@ public class Server : MonoBehaviour
             }
 
     }
+ 
+    [RPC]
+    public void EndGame(int mysID)
+    {
+        foreach (Session s in activeSessions)
+            if (s.seshID.Equals(mysID))
+            {
+                networkView.RPC("EndGame", s.p1, mysID);
+                networkView.RPC("EndGame", s.p2, mysID);
+
+            }
+    }
 
     [RPC]
     public void CreateCharacter(int whichChar, int whichPlayer, Vector3 pos, Vector3 rot, int SID)
