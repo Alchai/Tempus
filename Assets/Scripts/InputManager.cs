@@ -60,6 +60,8 @@ public class InputManager : MonoBehaviour
 
         switch (cmdToSend)
         {
+            case COMMAND.ATTACK:
+
             case COMMAND.LEFT:
                 if (!down_up)
                     playerScript.LeftPressed = true;
