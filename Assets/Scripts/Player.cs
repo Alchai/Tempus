@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
        sMoveSpeed, runSpeed = .2f, fallspeed = .2f, gravityBoost = 0f;
 
     public float RangeAttackScale = 1.0f, MeleeLightAttackScale = 1.0f, MeleeStrongAttackScale = 1.0f;
-    private int BaseAttack, BaseDefense, jumpFrames = 25;
+    private int BaseAttack, BaseDefense, jumpFrames = 15;
 
     private bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
         applyGravity = true, canJump = false, isJumping = false;

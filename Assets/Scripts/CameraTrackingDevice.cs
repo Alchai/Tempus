@@ -15,16 +15,22 @@ public class CameraTrackingDevice : MonoBehaviour
 
     void Start()
     {
-        player1 = GameObject.Find("Player1");
-        player2 = GameObject.Find("Player2");
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        p1Loc = player1.transform.position;
-        p2Loc = player2.transform.position;
-        playerDist = Vector3.Distance(p1Loc, p2Loc);
-        transform.position = new Vector3((p1Loc.x + p2Loc.x) * cameraScaling / 2, (p1Loc.y + p2Loc.y) / 2, (p1Loc.z + p2Loc.z) / 2);
+        try
+        {
+            player1 = GameObject.Find("me");
+            player2 = GameObject.Find("them");
+            p1Loc = player1.transform.position;
+            p2Loc = player2.transform.position;
+            playerDist = Vector3.Distance(p1Loc, p2Loc);
+            transform.position = new Vector3((p1Loc.x + p2Loc.x) * cameraScaling / 2, (p1Loc.y + p2Loc.y) / 2, (p1Loc.z + p2Loc.z) / 2);
+        }
+        catch { }
     }
 }
