@@ -17,6 +17,7 @@ public class OnMouseDownStuff : MonoBehaviour
     private GameObject[] Characters;
     private Client client;
     private Color SelectedColor = Color.white;
+    private Color MouseOverColor = new Color(0.75f, 0, 0);
 
     #endregion
     void Start()
@@ -174,17 +175,15 @@ public class OnMouseDownStuff : MonoBehaviour
         //    renderer.material.color = SelectedColor;
     }
 
-    //void OnMouseEnter()
-    //{
-    //    Color newcol = Color.white;
-    //    this.renderer.material.color = newcol;
-    //}
-
-    //void OnMouseExit()
-    //{
-    //    if (!(this.tag == "Character " + currentSelection))
-    //        renderer.material.color = Color.gray;
+    void OnMouseEnter()
+    {
+        if(tag == "Exit" || tag == "Credits" || tag == "Play")
+            this.renderer.material.color = MouseOverColor;
         
-        
-    //}
+    }
+    void OnMouseExit()
+    {
+        if (!(this.tag == "Character " + currentSelection))
+            renderer.material.color = Color.white;
+    }
 }
