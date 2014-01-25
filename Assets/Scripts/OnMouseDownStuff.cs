@@ -151,19 +151,14 @@ public class OnMouseDownStuff : MonoBehaviour
 
     void OnMouseEnter()
     {
-        Color newcol = new Color(.6f, .8f, .6f, 1f);
+        Color newcol = new Color(.2f, .9f, .2f, 1f);
         Color RedCol = new Color(.8f, 0.1f, 0.1f, 1f);
         if (tag == "Play" && !GameObject.Find("GUI").GetComponent<InputGUI>().CanPlay)
         {
             this.renderer.material.color = RedCol;
         }
-        else
-        {
-            this.renderer.material.color = newcol;
-        }   
-
-        if (tag == "Exit" || tag == "Credits" || tag == "Play")
-            this.renderer.material.color = MouseOverColor;
+        else if (tag == "Exit" || tag == "Credits" || tag == "Play")
+			this.renderer.material.color = newcol;
 
     }
     void OnMouseExit()
