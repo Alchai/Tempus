@@ -177,7 +177,8 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
-        StartCoroutine("jump");
+        if(canJump)
+            StartCoroutine("jump");
     }
 
     private IEnumerator jump()
