@@ -25,7 +25,10 @@ public class InputManager : MonoBehaviour
         else
             controllersConnected = false;
 
-        leftWasDown = rightWasDown = downWasDown = upWasDown = false;
+        leftWasDown = false;
+        rightWasDown = false;
+        downWasDown = false;
+        upWasDown = false;
     }
 
     private IEnumerator delayInput(COMMAND cmdToSend, bool down_up)
@@ -42,13 +45,12 @@ public class InputManager : MonoBehaviour
     void SendEvents(COMMAND cmdToSend, bool down_up)
     {
         bool p1_p2 = false;
-        if( client.GetComponent<Client>().playerNum == 2)
+        if (client.GetComponent<Client>().playerNum == 2)
             p1_p2 = true;
 
-        client.networkView.RPC("SendInput", RPCMode.Server, (int)cmdToSend, down_up, client.GetComponent<Client>().mySID, p1_p2);
+        client.networkView.RPC("SendInput", RPCMode.Server, (int)cmdToSend, down_up, client.GetComponent<Client>().mySID, !p1_p2);
 
         StartCoroutine(delayInput(cmdToSend, down_up));
-
     }
 
     public void ProcessInput(COMMAND cmdToSend, bool down_up)
@@ -58,13 +60,13 @@ public class InputManager : MonoBehaviour
         switch (cmdToSend)
         {
             case COMMAND.LEFT:
-                if (down_up)
+                if (!down_up)
                     playerScript.LeftPressed = true;
                 else
                     playerScript.LeftPressed = false;
                 break;
             case COMMAND.RIGHT:
-                if (down_up)
+                if (!down_up)
                     playerScript.RightPressed = true;
                 else
                     playerScript.RightPressed = false;

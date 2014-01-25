@@ -109,7 +109,7 @@ public class Server : MonoBehaviour
             if (seshID.Equals(s.seshID))
             {
                 if (!p1_p2)
-                    networkView.RPC("SendInput", s.p1, index, down_or_up, seshID, p1_p2);
+                    networkView.RPC("SendInput", s.p1, index, down_or_up, seshID, !p1_p2);
                 else
                     networkView.RPC("SendInput", s.p2, index, down_or_up, seshID, p1_p2);
             }

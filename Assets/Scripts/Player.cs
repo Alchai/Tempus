@@ -90,14 +90,15 @@ public class Player : MonoBehaviour
         if (canLeft && LeftPressed)
         {
             transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
-            if (!facingLeft)
-                transform.Rotate(0f, 180f, 90f);
+            if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 270f, 0f)) < 1f)
+                transform.eulerAngles = new Vector3(0f, 90f, 0f);
+
         }
         if (canRight && RightPressed)
         {
             transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
-            if (facingLeft)
-                transform.Rotate(0f, 180f, 90f);
+            if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 1f)
+                transform.eulerAngles = new Vector3(0f, 270f, 0f);
         }
     }
 
