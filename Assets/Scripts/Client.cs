@@ -34,6 +34,11 @@ public class Client : MonoBehaviour
     {
         StartCoroutine(speedTick());
     }
+    
+    [RPC]
+    public void SessionOver(int sID)
+    {
+    }
 
     private IEnumerator speedTick()
     {

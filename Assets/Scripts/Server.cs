@@ -20,6 +20,8 @@ public class Server : MonoBehaviour
 
     #endregion
 
+    #region UnityFunctions
+
     void Start()
     {
         Network.InitializeServer(maxPlayers, port, true);
@@ -36,27 +38,6 @@ public class Server : MonoBehaviour
         int random = Random.Range(0, Network.connections.Length);
         while (activeSessionIDs.Contains(random))
             random = Random.Range(0, Network.connections.Length);
-    }
-
-    [RPC]
-    public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2)
-    {
-        foreach (Session s in activeSessions)
-        {
-            if (seshID.Equals(s.seshID))
-            {
-                if (!p1_p2)
-                    networkView.RPC("SendInput", s.p1, index, down_or_up, seshID, p1_p2);
-                else
-                    networkView.RPC("SendInput", s.p2, index, down_or_up, seshID, p1_p2);
-
-            }
-        }
-    }
-
-    [RPC]
-    public void GetSessionID(NetworkPlayer player, int sID, int opponentCharChoice, int myCharChoice, int whichPlayerAmI)
-    {
     }
 
     void OnPlayerConnected(NetworkPlayer player)
@@ -77,27 +58,6 @@ public class Server : MonoBehaviour
         //this is where important bug fix code will go when dc's fuck everything up
         //this is where important bug fix code will go when dc's fuck everything up
         //this is where important bug fix code will go when dc's fuck everything up
-    }
-
-    [RPC]
-    public void SessionOver(int sID)
-    {
-        activeSessionIDs.Remove(sID);
-
-        for (int i = 0; i < activeSessions.Count; i++)
-            if (activeSessions[i].Equals(sID))
-            {
-                playersInLobby.Add(activeSessions[i].p1);
-                playersInLobby.Add(activeSessions[i].p2);
-
-                activeSessions.Remove(activeSessions[i]);
-            }
-    }
-
-    [RPC]
-    public void CalculateInputDelay(NetworkPlayer player)
-    {
-        networkView.RPC("CalculateInputDelay", player, player);
     }
 
     private IEnumerator LobbyLoop()
@@ -138,6 +98,28 @@ public class Server : MonoBehaviour
         StartCoroutine(LobbyLoop());
     }
 
+    #endregion
+
+    #region RPCs
+
+    [RPC]
+    public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2)
+    {
+        foreach (Session s in activeSessions)
+            if (seshID.Equals(s.seshID))
+            {
+                if (!p1_p2)
+                    networkView.RPC("SendInput", s.p1, index, down_or_up, seshID, p1_p2);
+                else
+                    networkView.RPC("SendInput", s.p2, index, down_or_up, seshID, p1_p2);
+            }
+    }
+
+    [RPC]
+    public void GetSessionID(NetworkPlayer player, int sID, int opponentCharChoice, int myCharChoice, int whichPlayerAmI)
+    {
+    }
+
     [RPC]
     public void CreateCharacter(int whichChar, int whichPlayer, Vector3 pos, Vector3 rot, int SID)
     {
@@ -150,6 +132,29 @@ public class Server : MonoBehaviour
             }
         }
     }
+
+    [RPC]
+    public void SessionOver(int sID)
+    {
+        activeSessionIDs.Remove(sID);
+
+        for (int i = 0; i < activeSessions.Count; i++)
+            if (activeSessions[i].Equals(sID))
+            {
+                playersInLobby.Add(activeSessions[i].p1);
+                playersInLobby.Add(activeSessions[i].p2);
+
+                activeSessions.Remove(activeSessions[i]);
+            }
+    }
+
+    [RPC]
+    public void CalculateInputDelay(NetworkPlayer player)
+    {
+        networkView.RPC("CalculateInputDelay", player, player);
+    }
+
+    #endregion
 
     void OnGUI()
     {
