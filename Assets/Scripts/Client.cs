@@ -165,24 +165,44 @@ public class Client : MonoBehaviour
     {
 
     }
+    private int numcharselects = 0;
 
     [RPC]
     public void SelectCharacter(string who, int seshID, bool p1_p2)
     {
-        GameObject mybutton;
+        numcharselects++;
+        GameObject mybutton, theirbutton;
         if (!p1_p2)
+        {
             mybutton = GameObject.Find("charone");
+            theirbutton = GameObject.Find("chartwo");
+        }
         else
+        {
             mybutton = GameObject.Find("chartwo");
-
-        if (who.Contains("1"))
+            theirbutton = GameObject.Find("charone");
+        }
+        if (who.Contains("1") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 1)
+        {
             mybutton.transform.position = GameObject.Find("topleftplayer").transform.position;
-        else if (who.Contains("2"))
+            mybutton.GetComponent<ButtonSelect>().currentSelection = 1;
+            
+        }
+        else if (who.Contains("2") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 2)
+        {
             mybutton.transform.position = GameObject.Find("toprightplayer").transform.position;
-        else if (who.Contains("3"))
+            mybutton.GetComponent<ButtonSelect>().currentSelection = 2;
+        }
+        else if (who.Contains("3") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 3)
+        {
             mybutton.transform.position = GameObject.Find("bottomleftplayer").transform.position;
-        else if (who.Contains("4"))
+            mybutton.GetComponent<ButtonSelect>().currentSelection = 3;
+        }
+        else if (who.Contains("4") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 4)
+        {
             mybutton.transform.position = GameObject.Find("bottomrightplayer").transform.position;
+            mybutton.GetComponent<ButtonSelect>().currentSelection = 4;
+        }
     }
 
     void OnGUI()
@@ -196,6 +216,7 @@ public class Client : MonoBehaviour
                 GUILayout.Label("I am player: " + playerNum);
                 GUILayout.Label("Input delay: " + inputDelay);
                 GUILayout.Label("Last Round Trip: " + fullPacketLength);
+                GUILayout.Label("num sent char selects: " + numcharselects);
             }
             else
                 GUILayout.Label("Awaiting opponent...");
