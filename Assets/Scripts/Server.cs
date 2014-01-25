@@ -141,13 +141,18 @@ public class Server : MonoBehaviour
     [RPC]
     public void EndGame(int mysID)
     {
+        activeSessionIDs.Remove(mysID);
+        Session deleteME = new Session();
         foreach (Session s in activeSessions)
             if (s.seshID.Equals(mysID))
             {
+                
                 networkView.RPC("EndGame", s.p1, mysID);
                 networkView.RPC("EndGame", s.p2, mysID);
-
+                deleteME = s;
             }
+
+        activeSessions.Remove(deleteME);
     }
 
     [RPC]

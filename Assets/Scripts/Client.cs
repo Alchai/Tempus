@@ -20,6 +20,12 @@ public class Client : MonoBehaviour
 
     #endregion
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            GameOver();
+    }
+
     void Start()
     {
         CharUserName = SystemInfo.deviceName;
@@ -161,14 +167,14 @@ public class Client : MonoBehaviour
         if (whichPlayer == playerNum)
         {
             newobj.AddComponent<InputManager>();
-            newobj.AddComponent<Player>();
+            //newobj.AddComponent<Player>();
             newobj.name = "me";
             me = newobj;
         }
         else
         {
             newobj.name = "them";
-            newobj.AddComponent<Player>();
+           // newobj.AddComponent<Player>();
             them = newobj;
         }
     }
