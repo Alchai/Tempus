@@ -18,12 +18,15 @@ public class Player : MonoBehaviour
         applyGravity = true, canJump = false, isJumping = false, facingLeft = false;
 
     //CHANGE THESE VARIABLES WHEN THE BUTTONS ARE\ARENT PRESSED 
-    public bool LeftPressed = false, RightPressed = false, JumpPressed = false;
+    public bool LeftPressed = false, RightPressed = false, JumpPressed = false, isDashing = false, isAttacking = false;
 
     private GameObject head, feet;
     private RaycastHit[] ray;
 
     public Client client;
+
+    public float dashSpeed = .5f;
+    public int dashFrames = 10;
 
     #endregion
 
@@ -87,16 +90,18 @@ public class Player : MonoBehaviour
             if (ray[i].transform.tag == "Wall")
                 canLeft = false;
 
-        if (canLeft && LeftPressed)
+        if (!isDashing && !isAttacking)
         {
-            transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
-            transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 90f, 0f), 30f);
-
-        }
-        if (canRight && RightPressed)
-        {
-            transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
-            transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 270f, 0f), 30f);
+            if (canLeft && LeftPressed)
+            {
+                transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
+                transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 90f, 0f), 30f);
+            }
+            if (canRight && RightPressed)
+            {
+                transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
+                transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 270f, 0f), 30f);
+            }
         }
     }
 
@@ -108,21 +113,24 @@ public class Player : MonoBehaviour
 
     private IEnumerator dash()
     {
-        if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, -270f, 0f)) < 1f)
+        isDashing = true;
+        if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 150f)
             facingLeft = false;
         else
             facingLeft = true;
 
-        print("facing left: " + facingLeft);
+        if ((facingLeft && dashSpeed > 0f) || (!facingLeft && dashSpeed < 0f))
+            dashSpeed *= -1f;
 
-        float dashBoost = .5f;
-
-        if (facingLeft)
-            dashBoost *= -.5f;
-
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < dashFrames; i++)
         {
-            transform.Translate(new Vector3(dashBoost, 0f, 0f), Space.World);
+            if ((float)dashFrames / 2f <= i)
+            {
+                isDashing = false;
+                print("isdashing is false now");
+            }
+            transform.Translate(new Vector3(dashSpeed, 0f, 0f), Space.World);
+
             yield return new WaitForEndOfFrame();
         }
     }
@@ -196,16 +204,20 @@ public class Player : MonoBehaviour
 
     private IEnumerator jump()
     {
-        int counter = 0;
-        float boost = .15f;
-
-        while (counter < jumpFrames)
+        if (!isAttacking)
         {
-            transform.Translate(0f, fallspeed * 1.4f + boost, 0f);
-            boost -= .01f;
-            yield return new WaitForEndOfFrame();
-            counter++;
+            isJumping = true;
+            int counter = 0;
+            float boost = .15f;
+
+            while (counter < jumpFrames)
+            {
+                transform.Translate(0f, fallspeed * 1.4f + boost, 0f);
+                boost -= .01f;
+                yield return new WaitForEndOfFrame();
+                counter++;
+            }
+            isJumping = false;
         }
-        isJumping = false;
     }
 }
