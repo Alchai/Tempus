@@ -14,7 +14,7 @@ public class Client : MonoBehaviour
 
     private GameObject char1, char2, char3, char4;
     public GameObject me, them;
-    
+
 
 
     #endregion
@@ -101,7 +101,7 @@ public class Client : MonoBehaviour
         myChar = myCharChoice;
         hisChar = opponentCharChoice;
         playerNum = whichPlayerAmI;
-       
+
         Application.LoadLevel("CharacterSelect");
     }
 
@@ -169,7 +169,20 @@ public class Client : MonoBehaviour
     [RPC]
     public void SelectCharacter(string who, int seshID, bool p1_p2)
     {
-           
+        GameObject mybutton;
+        if (!p1_p2)
+            mybutton = GameObject.Find("charone");
+        else
+            mybutton = GameObject.Find("chartwo");
+
+        if (who.Contains("1"))
+            mybutton.transform.position = GameObject.Find("topleftplayer").transform.position;
+        else if (who.Contains("2"))
+            mybutton.transform.position = GameObject.Find("toprightplayer").transform.position;
+        else if (who.Contains("3"))
+            mybutton.transform.position = GameObject.Find("bottomleftplayer").transform.position;
+        else if (who.Contains("4"))
+            mybutton.transform.position = GameObject.Find("bottomrightplayer").transform.position;
     }
 
     void OnGUI()
