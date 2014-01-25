@@ -83,9 +83,9 @@ public class Player : MonoBehaviour
                 canLeft = false;
 
         if (canLeft && LeftPressed)
-            transform.Translate(-runSpeed, 0f, 0f);
-        if (canRight && RightPressed)
             transform.Translate(runSpeed, 0f, 0f);
+        if (canRight && RightPressed)
+            transform.Translate(-runSpeed, 0f, 0f);
     }
 
     void Attack_LightMelee(Player Them)
