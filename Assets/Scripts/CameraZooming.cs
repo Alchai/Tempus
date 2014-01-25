@@ -11,12 +11,12 @@ public class CameraZooming : MonoBehaviour
 
     #region Camera variables
     //Camera motion scaling.
-    [SerializeField]
-    private float zoomScale, minZoomDist, trackScale;
+    public float zoomScale = 0.35f;
+    public float minZoomDist = 2.5f;
+    public float trackScale = 1.0f;
 
     //Camera positioning.
     private Vector3 currentPosition;
-    private Vector3 cameraOrigin = new Vector3(0f, 600f, 0f);
     #endregion
 
     void Start()
@@ -28,6 +28,6 @@ public class CameraZooming : MonoBehaviour
     {
         playerDistance = camTrack.GetComponent<CameraTrackingDevice>().playerDist;
         transform.LookAt(camTrack.transform.position);
-        transform.position = new Vector3(trackScale * camTrack.transform.position.x, trackScale * camTrack.transform.position.y, minZoomDist + zoomScale * playerDistance);
+        transform.position = new Vector3(trackScale * camTrack.transform.position.x, trackScale * camTrack.transform.position.y + 2f, minZoomDist + zoomScale * playerDistance);
     }
 }
