@@ -44,7 +44,7 @@ public class Server : MonoBehaviour
     {
         //whenever a player connects, add them to lobby, and update numplayers 
         numPlayers = Network.connections.Length;
-        playersInLobby.Add(player);
+       // playersInLobby.Add(player);
     }
 
     void OnPlayerDisconnected(NetworkPlayer player)
@@ -152,6 +152,12 @@ public class Server : MonoBehaviour
     public void CalculateInputDelay(NetworkPlayer player)
     {
         networkView.RPC("CalculateInputDelay", player, player);
+    }
+
+    [RPC]
+    public void JoinLobby(NetworkPlayer player)
+    {
+        playersInLobby.Add(player);
     }
 
     #endregion

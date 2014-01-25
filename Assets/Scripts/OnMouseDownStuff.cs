@@ -15,12 +15,13 @@ public class OnMouseDownStuff : MonoBehaviour
     GameObject LockButton;
     private int numMenuItems = 4;
     private GameObject[] Characters;
-
+    private Client client;
     private Color SelectedColor = new Color(.6f, .8f, .6f, 1f);
-    
+
     #endregion
     void Start()
     {
+        client = GameObject.Find("Client").GetComponent<Client>();
         Characters = new GameObject[numMenuItems];
         for (int i = 0; i < Characters.Length; i++)
         {
@@ -32,6 +33,8 @@ public class OnMouseDownStuff : MonoBehaviour
     }
     void Update()
     {
+        if (joinedlobby && !Network.isClient)
+            joinedlobby = false;
         //Timer Countdown
         if (Application.loadedLevelName.Contains("Character"))
         {
@@ -67,7 +70,7 @@ public class OnMouseDownStuff : MonoBehaviour
 
         if (ChoiceLock == false && currentSelection != 0)
         {
-            Characters[currentSelection-1].renderer.material.color = Color.gray;
+            Characters[currentSelection - 1].renderer.material.color = Color.gray;
             print("deselected");
             currentSelection = 0;
             NumCharSelected--;
@@ -79,8 +82,6 @@ public class OnMouseDownStuff : MonoBehaviour
         //de-select all others
         //change colors accordingly
         //change public currentSelection int to whichever you just chose
-
-
 
         if (who == "Character 1" && ChoiceLock == false)
         {
@@ -97,7 +98,7 @@ public class OnMouseDownStuff : MonoBehaviour
             currentSelection = 3;
             NumCharSelected++;
         }
-        else  if (who == "Character 4")
+        else if (who == "Character 4")
         {
             currentSelection = 4;
             NumCharSelected++;
@@ -113,17 +114,17 @@ public class OnMouseDownStuff : MonoBehaviour
         }
 
         //Changes color for selected Character
-        for (int i = 0; i < Characters.Length;  i++)
+        for (int i = 0; i < Characters.Length; i++)
         {
-            if (i+1 == currentSelection)
+            if (i + 1 == currentSelection)
                 Characters[i].renderer.material.color = SelectedColor;
             else
                 Characters[i].renderer.material.color = Color.gray;
         }
 
-       
-    }
 
+    }
+    private bool joinedlobby = false;
     void OnMouseDown()
     {
         if (!ChoiceLock)
@@ -166,7 +167,10 @@ public class OnMouseDownStuff : MonoBehaviour
 
         //Main Menu
         if (tag == "Play")
-            Application.LoadLevel("CharacterSelect");
+        {
+            client.networkView.RPC("JoinLobby", RPCMode.Server, Network.player);
+            joinedlobby = true;
+        }
 
         else if (tag == "Credits")
             print("Credits Switch");
@@ -179,7 +183,7 @@ public class OnMouseDownStuff : MonoBehaviour
         {
             print("Locked");
             Select("Lock Choices");
-            
+
         }
 
 
@@ -215,13 +219,13 @@ public class OnMouseDownStuff : MonoBehaviour
 
     void OnMouseExit()
     {
-            if (!(this.tag == "Character " + currentSelection))
+        if (!(this.tag == "Character " + currentSelection))
             renderer.material.color = Color.gray;
 
-            if (tag == "Lock Choices")
-            {
-                if(ChoiceLock == true)
-                    LockButton.renderer.material.color = SelectedColor;
-            }
+        if (tag == "Lock Choices")
+        {
+            if (ChoiceLock == true)
+                LockButton.renderer.material.color = SelectedColor;
+        }
     }
 }

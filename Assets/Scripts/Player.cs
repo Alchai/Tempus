@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     private bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
         applyGravity = true, canJump = false, isJumping = false, facingLeft = false;
 
+    public int FramesForKnockback = 10;
+
     //CHANGE THESE VARIABLES WHEN THE BUTTONS ARE\ARENT PRESSED 
     public bool LeftPressed = false, RightPressed = false, JumpPressed = false, isDashing = false, isAttacking = false;
 
@@ -142,7 +144,7 @@ public class Player : MonoBehaviour
 	
 	private IEnumerator knockBack()
 	{
-		for(int i = 0; i < FramsForKnockback; i++) 
+		for(int i = 0; i < FramesForKnockback; i++) 
 		{
 			if(facingLeft)
 				gameObject.transform.Translate(new Vector3(-0.1f,0f,0f), Space.World);

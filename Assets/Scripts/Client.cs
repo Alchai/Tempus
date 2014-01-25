@@ -99,7 +99,8 @@ public class Client : MonoBehaviour
         myChar = myCharChoice;
         hisChar = opponentCharChoice;
         playerNum = whichPlayerAmI;
-        Application.LoadLevel("TestBattle");
+       
+        Application.LoadLevel("CharacterSelect");
     }
 
     [RPC]
@@ -155,6 +156,12 @@ public class Client : MonoBehaviour
             newobj.AddComponent<Player>();
             them = newobj;
         }
+    }
+
+    [RPC]
+    public void JoinLobby(NetworkPlayer player)
+    {
+
     }
 
     void OnGUI()
