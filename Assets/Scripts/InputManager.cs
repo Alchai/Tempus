@@ -36,10 +36,16 @@ public class InputManager : MonoBehaviour
 
         ProcessInput(cmdToSend, down_up);
     }
-
+    // [RPC]
+    //public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2)
+    //{
     void SendEvents(COMMAND cmdToSend, bool down_up)
     {
-        client.networkView.RPC("SendInput", RPCMode.Server, (int)cmdToSend, down_up);
+        bool p1_p2 = false;
+        if( client.GetComponent<Client>().playerNum == 2)
+            p1_p2 = true;
+
+        client.networkView.RPC("SendInput", RPCMode.Server, (int)cmdToSend, down_up, client.GetComponent<Client>().mySID, p1_p2);
 
         StartCoroutine(delayInput(cmdToSend, down_up));
 
@@ -91,7 +97,7 @@ public class InputManager : MonoBehaviour
             SendEvents(COMMAND.LEFT, false);
         if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             SendEvents(COMMAND.DOWN, false);
-        if (Input.GetKeyDown(KeyCode.UpArrow)   || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             SendEvents(COMMAND.UP, false);
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
             SendEvents(COMMAND.RIGHT, false);
@@ -119,7 +125,7 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.X) || Input.GetKeyUp(KeyCode.K))
             SendEvents(COMMAND.RANGED, true);
         if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
-            SendEvents(COMMAND.DASH,  true);
+            SendEvents(COMMAND.DASH, true);
 
         //Check controller input
         if (controllersConnected)
@@ -183,7 +189,7 @@ public class InputManager : MonoBehaviour
             else if (lTriggerWasDown)
             {
                 SendEvents(COMMAND.DASH, true);
-                lTriggerWasDown =  false;
+                lTriggerWasDown = false;
             }
             //RTrigger
             if (Input.GetAxisRaw("Axis10") > 0.0f)

@@ -14,8 +14,15 @@ public class BattleLogic : MonoBehaviour
 
     private IEnumerator SendNewChars()
     {
-        //wait 5 seconds before sending the create character RPC (so that both players are definitely connected)
         yield return new WaitForSeconds(5f);
-        client.networkView.RPC("CreateCharacter", RPCMode.Server, client.myChar, client.playerNum, Vector3.zero, Vector3.zero, client.mySID);
+        Vector3 rotOffset = new Vector3(0f, -90f, 0f),
+            posOffset = new Vector3(10f, 0f, 0f);
+
+        if (client.playerNum == 1)
+        {
+            rotOffset = new Vector3(0f, 90f, 0f);
+            posOffset = new Vector3(-10f, 0f, 0f);
+        }
+        client.networkView.RPC("CreateCharacter", RPCMode.Server, client.myChar, client.playerNum, posOffset, rotOffset, client.mySID);
     }
 }

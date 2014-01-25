@@ -49,6 +49,7 @@ public class Client : MonoBehaviour
     [RPC]
     public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2)
     {
+        Player theirPlayer = them.GetComponent<Player>();
         if (!down_or_up)
             switch (index)
             {
@@ -56,16 +57,16 @@ public class Client : MonoBehaviour
                     them.GetComponent<Player>().LeftPressed = true;
                     break;
                 case 3:
-                    them.GetComponent<Player>().RightPressed = true;
+                    theirPlayer.RightPressed = true;
                     break;
                 case 4:
-                    them.GetComponent<Player>().Jump();
+                    theirPlayer.Jump();
                     break;
                 case 5:
                     //Attack here
                     break;
                 case 6:
-                    //Dash here
+                    theirPlayer.Dash();
                     break;
                 case 7:
                     //ranged here

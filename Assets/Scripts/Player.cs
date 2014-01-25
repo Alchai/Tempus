@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     private int BaseAttack, BaseDefense, jumpFrames = 25;
 
     private bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
-        applyGravity = true, canJump = false, isJumping = false;
+        applyGravity = true, canJump = false, isJumping = false, facingLeft = false;
 
     //CHANGE THESE VARIABLES WHEN THE BUTTONS ARE\ARENT PRESSED 
     public bool LeftPressed = false, RightPressed = false, JumpPressed = false;
@@ -31,6 +31,11 @@ public class Player : MonoBehaviour
     {
         feet = transform.FindChild("feet").gameObject;
         head = transform.FindChild("head").gameObject;
+
+        if (transform.eulerAngles.y == 270 || transform.eulerAngles.y == -90)
+            facingLeft = true;
+        else
+            facingLeft = false;
     }
 
     void Update()
@@ -83,9 +88,29 @@ public class Player : MonoBehaviour
                 canLeft = false;
 
         if (canLeft && LeftPressed)
-            transform.Translate(runSpeed, 0f, 0f);
+        {
+            transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
+            if (!facingLeft)
+                transform.Rotate(0f, 180f, 90f);
+        }
         if (canRight && RightPressed)
-            transform.Translate(-runSpeed, 0f, 0f);
+        {
+            transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
+            if (facingLeft)
+                transform.Rotate(0f, 180f, 90f);
+        }
+    }
+
+    public void Dash()
+    {
+        StartCoroutine("dash");
+    }
+
+    private IEnumerator dash()
+    {
+
+        yield return new WaitForEndOfFrame();
+
     }
 
     void Attack_LightMelee(Player Them)
