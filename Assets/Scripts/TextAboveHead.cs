@@ -26,7 +26,8 @@ public class TextAboveHead : MonoBehaviour
         newtext.GetComponent<TextMesh>().color = Color.white;
         newtext.GetComponent<TextMesh>().font = ArialFont;
         newtext.GetComponent<TextMesh>().renderer.material = ArialFont.material;
-        newtext.GetComponent<TextMesh>().text = "Player";
+        Client cli = player.GetComponent<Client>();
+        newtext.GetComponent<TextMesh>().text = cli.CharUserName;
         newtext.transform.position = player.transform.position;
         newtext.transform.Translate(0f, 2f, 0f);
         newtext.transform.parent = player.transform;

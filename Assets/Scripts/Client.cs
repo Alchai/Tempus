@@ -15,12 +15,14 @@ public class Client : MonoBehaviour
     private GameObject char1, char2, char3, char4;
     public GameObject me, them;
 
+    public string CharUserName;
 
 
     #endregion
 
     void Start()
     {
+        CharUserName = SystemInfo.deviceName;
         Network.Connect("72.238.29.102", 843);
         DontDestroyOnLoad(gameObject);
 

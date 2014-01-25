@@ -21,7 +21,7 @@ public class OnMouseDownStuff : MonoBehaviour
     private Color MouseOverColor = new Color(0.75f, 0, 0);
 
     #endregion
-   
+
     void Start()
     {
         client = GameObject.Find("Client").GetComponent<Client>();
@@ -34,7 +34,7 @@ public class OnMouseDownStuff : MonoBehaviour
         Timer = GameObject.Find("Timer Text");
         LockButton = GameObject.Find("Lock Choices");
     }
-  
+
     void Update()
     {
         if (joinedlobby && !Network.isClient)
@@ -129,7 +129,7 @@ public class OnMouseDownStuff : MonoBehaviour
             }
         }
 
-        if (tag == "Play" && !joinedlobby)
+        if (tag == "Play" && !joinedlobby && GameObject.Find("GUI").GetComponent<InputGUI>().CanPlay)
         {
             client.networkView.RPC("JoinLobby", RPCMode.Server, Network.player);
             joinedlobby = true;
@@ -151,9 +151,20 @@ public class OnMouseDownStuff : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if(tag == "Exit" || tag == "Credits" || tag == "Play")
+        Color newcol = new Color(.6f, .8f, .6f, 1f);
+        Color RedCol = new Color(.8f, 0.1f, 0.1f, 1f);
+        if (tag == "Play" && !GameObject.Find("GUI").GetComponent<InputGUI>().CanPlay)
+        {
+            this.renderer.material.color = RedCol;
+        }
+        else
+        {
+            this.renderer.material.color = newcol;
+        }   
+
+        if (tag == "Exit" || tag == "Credits" || tag == "Play")
             this.renderer.material.color = MouseOverColor;
-        
+
     }
     void OnMouseExit()
     {
