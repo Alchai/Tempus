@@ -190,11 +190,7 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
-<<<<<<< HEAD
-        if(canJump)
-=======
         if (canJump)
->>>>>>> Getting more mechanics to work. Dash.
             StartCoroutine("jump");
     }
 
