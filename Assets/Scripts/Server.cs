@@ -44,7 +44,7 @@ public class Server : MonoBehaviour
     {
         //whenever a player connects, add them to lobby, and update numplayers 
         numPlayers = Network.connections.Length;
-       // playersInLobby.Add(player);
+        // playersInLobby.Add(player);
     }
 
     void OnPlayerDisconnected(NetworkPlayer player)
@@ -118,6 +118,23 @@ public class Server : MonoBehaviour
     [RPC]
     public void GetSessionID(NetworkPlayer player, int sID, int opponentCharChoice, int myCharChoice, int whichPlayerAmI)
     {
+    }
+
+    [RPC]
+    public void SelectCharacter(string who, int seshID, bool p1_p2)
+    {
+        foreach (Session s in activeSessions)
+            if (seshID.Equals(s.seshID))
+            {
+                NetworkPlayer player;
+                if (!p1_p2)
+                    player = s.p1;
+                else
+                    player = s.p2;
+
+                networkView.RPC("SelectCharacter", player, who, seshID, p1_p2);
+            }
+
     }
 
     [RPC]

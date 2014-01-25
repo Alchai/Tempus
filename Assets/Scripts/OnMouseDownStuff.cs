@@ -82,7 +82,7 @@ public class OnMouseDownStuff : MonoBehaviour
         //de-select all others
         //change colors accordingly
         //change public currentSelection int to whichever you just chose
-
+        client.networkView.RPC("SelectCharacter", RPCMode.Server, who, client.mySID);
         if (who == "Character 1" && ChoiceLock == false)
         {
             currentSelection = 1;

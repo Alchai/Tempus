@@ -14,6 +14,8 @@ public class Client : MonoBehaviour
 
     private GameObject char1, char2, char3, char4;
     public GameObject me, them;
+    
+
 
     #endregion
 
@@ -162,6 +164,12 @@ public class Client : MonoBehaviour
     public void JoinLobby(NetworkPlayer player)
     {
 
+    }
+
+    [RPC]
+    public void SelectCharacter(string who, int seshID, bool p1_p2)
+    {
+           
     }
 
     void OnGUI()
