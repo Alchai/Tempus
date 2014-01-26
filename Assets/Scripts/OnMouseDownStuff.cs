@@ -24,7 +24,18 @@ public class OnMouseDownStuff : MonoBehaviour
 
     void Start()
     {
-        client = GameObject.Find("Client").GetComponent<Client>();
+        try
+        {
+            client = GameObject.Find("Client").GetComponent<Client>();
+        }
+        catch
+        {
+            if (name.Contains("Play"))
+            {
+                GameObject go = GameObject.Instantiate(Resources.Load("Client") as GameObject, Vector3.zero, Quaternion.identity) as GameObject;
+                go.name = "Client";
+            }
+        }
         Characters = new GameObject[numMenuItems];
         for (int i = 0; i < Characters.Length; i++)
         {
@@ -33,6 +44,9 @@ public class OnMouseDownStuff : MonoBehaviour
         renderer.material.color = Color.gray;
         Timer = GameObject.Find("Timer Text");
         LockButton = GameObject.Find("Lock Choices");
+
+        // if (!client && name.Contains("Play"))
+
     }
 
     void Update()
@@ -136,7 +150,7 @@ public class OnMouseDownStuff : MonoBehaviour
         }
 
         else if (tag == "Credits")
-            print("Credits Switch");
+            Application.LoadLevel("Credits");
 
         if (tag == "Exit" || tag == "Exit Cube")
             Application.Quit();
@@ -158,7 +172,7 @@ public class OnMouseDownStuff : MonoBehaviour
             this.renderer.material.color = RedCol;
         }
         else if (tag == "Exit" || tag == "Credits" || tag == "Play")
-			this.renderer.material.color = newcol;
+            this.renderer.material.color = newcol;
 
     }
     void OnMouseExit()
