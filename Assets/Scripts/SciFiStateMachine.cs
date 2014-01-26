@@ -16,14 +16,14 @@ public class SciFiStateMachine : StatesInherit
 	
 	// Update is called once per frame
 	void LateUpdate () {
-        if ((plr.IsMovingLeft || plr.IsMovingRight) && (!plr.IsBlocking && !plr.isDashing && !plr.IsAirborne && !plr.isJumping))
+        if (((plr.canLeft && plr.LeftPressed) || (plr.RightPressed && plr.canRight)) && (!plr.isDashing && !plr.applyGravity && !plr.isJumping))
             ChangeState("Run");
-        if ((plr.canJump && plr.JumpPressed))
+        else if ((plr.canJump && plr.JumpPressed))
             ChangeState("Jump");
-        if ((plr.isDashing))
+        else if ((plr.isDashing))
             ChangeState("Dash");
-        if ((plr.isHit))
-            ChangeState("Hit");
+        //else if ((plr.isHit))
+        //    ChangeState("Hit");
         else
             ChangeState("Idle");
 	}
