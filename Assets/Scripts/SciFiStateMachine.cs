@@ -20,11 +20,11 @@ public class SciFiStateMachine : StatesInherit
             ChangeState("Run");
         else if ((plr.isJumping))
             ChangeState("Jump");
-        else if ((plr.isDashing))
-            ChangeState("Dash");
+        else if ((!plr.isDashing))
+            ChangeState("Idle");
         //else if ((plr.isHit))
         //    ChangeState("Hit");
         else
-            ChangeState("Idle");
+            ChangeState("Dashing");
 	}
 }
