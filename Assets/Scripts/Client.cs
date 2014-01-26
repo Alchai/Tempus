@@ -133,7 +133,7 @@ public class Client : MonoBehaviour
     }
 
     [RPC]
-    public void CreateCharacter(int whichChar, int whichPlayer, Vector3 pos, Vector3 rot, int SID)
+	public void CreateCharacter(int whichChar, int whichPlayer, Vector3 pos, Vector3 rot, int SID, string playerName)
     {
         GameObject newobj = char1;
         switch (whichChar)
@@ -170,6 +170,9 @@ public class Client : MonoBehaviour
             //newobj.AddComponent<Player>();
             newobj.name = "me";
             me = newobj;
+			print(me);
+			print(CharUserName);
+			me.transform.FindChild("3DText").GetComponent<TextMesh>().text = CharUserName;
             foreach (BlendGroup bg in GameObject.FindObjectsOfType<BlendGroup>())
             {
                 bg.InitializeBlend();
@@ -180,6 +183,7 @@ public class Client : MonoBehaviour
             newobj.name = "them";
            // newobj.AddComponent<Player>();
             them = newobj;
+			them.transform.FindChild("3DText").GetComponent<TextMesh>().text = playerName;
             foreach (BlendGroup bg in GameObject.FindObjectsOfType<BlendGroup>())
             {
                 bg.InitializeBlend();

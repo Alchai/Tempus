@@ -137,6 +137,7 @@ public class OnMouseDownStuff : MonoBehaviour
         if (tag == "Play" && !joinedlobby && GameObject.Find("GUI").GetComponent<InputGUI>().CanPlay)
         {
             client.networkView.RPC("JoinLobby", RPCMode.Server, Network.player);
+			client.CharUserName = GameObject.Find("GUI").GetComponent<InputGUI>().stringToEdit;
             joinedlobby = true;
         }
 
