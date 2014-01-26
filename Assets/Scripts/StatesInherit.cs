@@ -89,11 +89,11 @@ public class StatesInherit : MonoBehaviour
 
     public virtual void ChangeState(string stateName)
     {
-        if (stateName != currentState.animationName && currentState.animationName != "Death")
+        if (stateName != currentState.animationName /*&& currentState.animationName != "Death"*/)
         {
             if (smoothBlending)
             {
-                //StopCoroutine("SmoothBlend");
+                StopCoroutine("SmoothBlend");
                 AnimationState current = animation[currentState.animationName];
                 AnimationState previous = animation[previousState.animationName];
                 current.weight = 1.0f;
@@ -133,11 +133,11 @@ public class StatesInherit : MonoBehaviour
 
                 if (currentStateAnimation.normalizedTime >= 0.9f)
                 {
-                    if (currentState.animationName == "Death")
-                    {
-                        this.enabled = false;
-                        return;
-                    }
+                    //if (currentState.animationName == "Death")
+                    //{
+                    //    this.enabled = false;
+                    //    return;
+                    //}
                     if (currentState.stateAfterOneShot == "Previous")
                         ChangeState(previousState.animationName);
                     else
