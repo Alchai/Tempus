@@ -24,18 +24,9 @@ public class OnMouseDownStuff : MonoBehaviour
 
     void Start()
     {
-        try
-        {
-            client = GameObject.Find("Client").GetComponent<Client>();
-        }
-        catch
-        {
-            if (name.Contains("Play"))
-            {
-                GameObject go = GameObject.Instantiate(Resources.Load("Client") as GameObject, Vector3.zero, Quaternion.identity) as GameObject;
-                go.name = "Client";
-            }
-        }
+
+        client = GameObject.Find("Client").GetComponent<Client>();
+
         Characters = new GameObject[numMenuItems];
         for (int i = 0; i < Characters.Length; i++)
         {
