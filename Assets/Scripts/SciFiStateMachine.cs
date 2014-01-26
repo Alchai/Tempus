@@ -10,7 +10,7 @@ public class SciFiStateMachine : StatesInherit
 
     // Use this for initialization
 	void Start () {
-        plr = GameObject.Find("Character2").GetComponent<Player>();
+        plr = GetComponent<Player>();
         ChangeState("Idle");
 	}
 	
