@@ -175,6 +175,23 @@ public class Player : MonoBehaviour
         else if (this.sWinBackground + AttackAmount < MaxLevelState)
             this.sWinBackground += AttackAmount;
 
+		//Play sound:
+		switch (this.client.myChar)
+		{
+		case 0:
+			AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
+			break;
+		case 1:
+			AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
+			break;
+		case 2:
+			AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
+			break;
+		case 3:
+			AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
+			break;
+		}
+
     }
 
     void Attack_HeaveyMelee(Player Them)
@@ -191,6 +208,23 @@ public class Player : MonoBehaviour
             this.sWinBackground = MaxLevelState;
         else if (this.sWinBackground + AttackAmount < MaxLevelState)
             this.sWinBackground += AttackAmount;
+
+		switch (this.client.myChar)
+		{
+		case 0:
+			AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
+			break;
+		case 1:
+			AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
+			break;
+		case 2:
+			AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
+			break;
+		case 3:
+			AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
+			break;
+		}
+
     }
 
     void Attack_Ranged(Player Them)
@@ -207,6 +241,23 @@ public class Player : MonoBehaviour
             this.sWinBackground = MaxLevelState;
         else if (this.sWinBackground + AttackAmount < MaxLevelState)
             this.sWinBackground += AttackAmount;
+		//sound
+		switch (this.client.myChar)
+		{
+		case 0:
+			AudioManager.play("Throw_woosh1", 1.0f, this.transform.position);
+			break;
+		case 1:
+			AudioManager.play("GS_Laser_Shoot14", 1.0f, this.transform.position);
+			break;
+		case 2:
+			//AudioManager.play("GS_Randomizer137", 1.0f, this.transform.position);
+			AudioManager.play("Throw_woosh3", 1.0f, this.transform.position);
+			break;
+		case 3:
+			AudioManager.play("GS_Randomizer63", 1.0f, this.transform.position);
+			break;
+		}
     }
 
     public void SetBlocking(bool IsActive)
@@ -227,6 +278,15 @@ public class Player : MonoBehaviour
             StartCoroutine("jump");
     }
 
+	public float GetWinBackground()
+	{
+		return sWinBackground;
+	}
+	public float GetMaxLevelState()
+	{
+		return MaxLevelState;
+	}
+
     private IEnumerator jump()
     {
         if (!isAttacking)
@@ -245,4 +305,6 @@ public class Player : MonoBehaviour
             isJumping = false;
         }
     }
+
+
 }
