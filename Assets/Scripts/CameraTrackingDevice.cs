@@ -29,7 +29,7 @@ public class CameraTrackingDevice : MonoBehaviour
             p1Loc = player1.transform.position;
             p2Loc = player2.transform.position;
             playerDist = Vector3.Distance(p1Loc, p2Loc);
-            targetPos = new Vector3((p1Loc.x + p2Loc.x) * cameraScaling / 2, ((p1Loc.y + p2Loc.y) / 2) + (playerDist / 7f), (p1Loc.z + p2Loc.z) / 2);
+            targetPos = new Vector3((p1Loc.x + p2Loc.x) * cameraScaling / 2, ((p1Loc.y + p2Loc.y) / 2) + (playerDist / 10f), (p1Loc.z + p2Loc.z) / 2);
             
             transform.position = Vector3.Lerp(transform.position, targetPos, .03f);
         }

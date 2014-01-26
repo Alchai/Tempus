@@ -15,8 +15,8 @@ public class CameraZooming : MonoBehaviour
 
     #region Camera variables
     //Camera motion scaling.
-    public float zoomScale = 0.35f;
-    public float minZoomDist = 2.5f;
+    public float zoomScale = 0.38f;
+    public float minZoomDist = 3.5f;
     public float trackScale = 1.0f;
 
     //Camera positioning.
