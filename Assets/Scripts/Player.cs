@@ -14,8 +14,8 @@ public class Player : MonoBehaviour
     public float RangeAttackScale = 1.0f, MeleeLightAttackScale = 1.0f, MeleeStrongAttackScale = 1.0f;
     private int BaseAttack, BaseDefense, jumpFrames = 25;
 
-    private bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
-        applyGravity = true, canJump = false, isJumping = false, facingLeft = false;
+    public bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
+        applyGravity = true, canJump = false, isJumping = false, facingLeft = false, isHit = false;
 
     public int FramesForKnockback = 10;
 
