@@ -18,7 +18,7 @@ public class SciFiStateMachine : StatesInherit
 	void LateUpdate () {
         if (((plr.canLeft && plr.LeftPressed) || (plr.RightPressed && plr.canRight)) && (!plr.isDashing && !plr.applyGravity && !plr.isJumping))
             ChangeState("Run");
-        else if ((plr.canJump && plr.JumpPressed))
+        else if ((plr.isJumping))
             ChangeState("Jump");
         else if ((plr.isDashing))
             ChangeState("Dash");
