@@ -26,6 +26,6 @@ public class InputGUI : MonoBehaviour
 
 	void OnGUI() 
 	{
-		stringToEdit = GUI.TextField(new Rect(325, 140, 250, 45), stringToEdit, 25);
+		stringToEdit = GUI.TextField(new Rect(Screen.width / 2 - 125, Screen.height / 3.6f, 250, 45), stringToEdit, 25);
 	}
 }
