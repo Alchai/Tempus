@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SciFiStateMachine : StatesInherit
+public class StateMachine : StatesInherit
 {
 
     #region Variables
@@ -25,6 +25,6 @@ public class SciFiStateMachine : StatesInherit
         //else if ((plr.isHit))
         //    ChangeState("Hit");
         else
-            ChangeState("Dash");
+            ChangeState("Dash"); //Find better way to dash...
 	}
 }

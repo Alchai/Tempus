@@ -1,0 +1,2351 @@
+fileFormatVersion: 2
+guid: f97ea8bbbf399134d8145b8d6c83b889
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Caveman_Rigged_Complete:Bearclaw_Bind_J
+    100004: Caveman_Rigged_Complete:Bearclaw_Bind_J1
+    100006: Caveman_Rigged_Complete:Bearclaw_Bind_J2
+    100008: Caveman_Rigged_Complete:Bearclaw_Bind_J3
+    100010: Caveman_Rigged_Complete:Bearclaw_Bind_J4
+    100012: Caveman_Rigged_Complete:Bearclaw_Bind_J5
+    100014: Caveman_Rigged_Complete:Bearclaw_Geo
+    100016: Caveman_Rigged_Complete:Bind_J
+    100018: Caveman_Rigged_Complete:Bind_J1
+    100020: Caveman_Rigged_Complete:Bind_J10
+    100022: Caveman_Rigged_Complete:Bind_J11
+    100024: Caveman_Rigged_Complete:Bind_J12
+    100026: Caveman_Rigged_Complete:Bind_J13
+    100028: Caveman_Rigged_Complete:Bind_J14
+    100030: Caveman_Rigged_Complete:Bind_J15
+    100032: Caveman_Rigged_Complete:Bind_J16
+    100034: Caveman_Rigged_Complete:Bind_J17
+    100036: Caveman_Rigged_Complete:Bind_J18
+    100038: Caveman_Rigged_Complete:Bind_J19
+    100040: Caveman_Rigged_Complete:Bind_J2
+    100042: Caveman_Rigged_Complete:Bind_J20
+    100044: Caveman_Rigged_Complete:Bind_J21
+    100046: Caveman_Rigged_Complete:Bind_J22
+    100048: Caveman_Rigged_Complete:Bind_J23
+    100050: Caveman_Rigged_Complete:Bind_J24
+    100052: Caveman_Rigged_Complete:Bind_J25
+    100054: Caveman_Rigged_Complete:Bind_J26
+    100056: Caveman_Rigged_Complete:Bind_J27
+    100058: Caveman_Rigged_Complete:Bind_J28
+    100060: Caveman_Rigged_Complete:Bind_J29
+    100062: Caveman_Rigged_Complete:Bind_J3
+    100064: Caveman_Rigged_Complete:Bind_J30
+    100066: Caveman_Rigged_Complete:Bind_J4
+    100068: Caveman_Rigged_Complete:Bind_J5
+    100070: Caveman_Rigged_Complete:Bind_J6
+    100072: Caveman_Rigged_Complete:Bind_J7
+    100074: Caveman_Rigged_Complete:Bind_J8
+    100076: Caveman_Rigged_Complete:Bind_J9
+    100078: Caveman_Rigged_Complete:cape_bind
+    100080: Caveman_Rigged_Complete:cape_bind1
+    100082: Caveman_Rigged_Complete:cape_bind2
+    100084: Caveman_Rigged_Complete:cape_bind3
+    100086: Caveman_Rigged_Complete:cape_bind4
+    100088: Caveman_Rigged_Complete:cape_bind5
+    100090: Caveman_Rigged_Complete:cape_bind6
+    100092: Caveman_Rigged_Complete:cape_bind7
+    100094: Caveman_Rigged_Complete:cape_bind8
+    100096: Caveman_Rigged_Complete:cape_bind9
+    100098: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+    100100: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+    100102: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+    100104: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+    100106: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+    100108: Caveman_Rigged_Complete:Club
+    100110: Caveman_Rigged_Complete:Control_J
+    100112: Caveman_Rigged_Complete:Control_J1
+    100114: Caveman_Rigged_Complete:Control_J10
+    100116: Caveman_Rigged_Complete:Control_J11
+    100118: Caveman_Rigged_Complete:Control_J12
+    100120: Caveman_Rigged_Complete:Control_J13
+    100122: Caveman_Rigged_Complete:Control_J14
+    100124: Caveman_Rigged_Complete:Control_J15
+    100126: Caveman_Rigged_Complete:Control_J16
+    100128: Caveman_Rigged_Complete:Control_J17
+    100130: Caveman_Rigged_Complete:Control_J18
+    100132: Caveman_Rigged_Complete:Control_J19
+    100134: Caveman_Rigged_Complete:Control_J2
+    100136: Caveman_Rigged_Complete:Control_J20
+    100138: Caveman_Rigged_Complete:Control_J21
+    100140: Caveman_Rigged_Complete:Control_J22
+    100142: Caveman_Rigged_Complete:Control_J23
+    100144: Caveman_Rigged_Complete:Control_J24
+    100146: Caveman_Rigged_Complete:Control_J25
+    100148: Caveman_Rigged_Complete:Control_J26
+    100150: Caveman_Rigged_Complete:Control_J27
+    100152: Caveman_Rigged_Complete:Control_J28
+    100154: Caveman_Rigged_Complete:Control_J29
+    100156: Caveman_Rigged_Complete:Control_J3
+    100158: Caveman_Rigged_Complete:Control_J30
+    100160: Caveman_Rigged_Complete:Control_J4
+    100162: Caveman_Rigged_Complete:Control_J5
+    100164: Caveman_Rigged_Complete:Control_J6
+    100166: Caveman_Rigged_Complete:Control_J7
+    100168: Caveman_Rigged_Complete:Control_J8
+    100170: Caveman_Rigged_Complete:Control_J9
+    100172: Caveman_Rigged_Complete:joint1
+    100174: Caveman_Rigged_Complete:joint2
+    100176: Caveman_Rigged_Complete:polySurface15
+    100178: Caveman_Rigged_Complete:polySurface18
+    100180: Caveman_Rigged_Complete:Spartan_Model
+    400000: //RootNode
+    400002: Caveman_Rigged_Complete:Bearclaw_Bind_J
+    400004: Caveman_Rigged_Complete:Bearclaw_Bind_J1
+    400006: Caveman_Rigged_Complete:Bearclaw_Bind_J2
+    400008: Caveman_Rigged_Complete:Bearclaw_Bind_J3
+    400010: Caveman_Rigged_Complete:Bearclaw_Bind_J4
+    400012: Caveman_Rigged_Complete:Bearclaw_Bind_J5
+    400014: Caveman_Rigged_Complete:Bearclaw_Geo
+    400016: Caveman_Rigged_Complete:Bind_J
+    400018: Caveman_Rigged_Complete:Bind_J1
+    400020: Caveman_Rigged_Complete:Bind_J10
+    400022: Caveman_Rigged_Complete:Bind_J11
+    400024: Caveman_Rigged_Complete:Bind_J12
+    400026: Caveman_Rigged_Complete:Bind_J13
+    400028: Caveman_Rigged_Complete:Bind_J14
+    400030: Caveman_Rigged_Complete:Bind_J15
+    400032: Caveman_Rigged_Complete:Bind_J16
+    400034: Caveman_Rigged_Complete:Bind_J17
+    400036: Caveman_Rigged_Complete:Bind_J18
+    400038: Caveman_Rigged_Complete:Bind_J19
+    400040: Caveman_Rigged_Complete:Bind_J2
+    400042: Caveman_Rigged_Complete:Bind_J20
+    400044: Caveman_Rigged_Complete:Bind_J21
+    400046: Caveman_Rigged_Complete:Bind_J22
+    400048: Caveman_Rigged_Complete:Bind_J23
+    400050: Caveman_Rigged_Complete:Bind_J24
+    400052: Caveman_Rigged_Complete:Bind_J25
+    400054: Caveman_Rigged_Complete:Bind_J26
+    400056: Caveman_Rigged_Complete:Bind_J27
+    400058: Caveman_Rigged_Complete:Bind_J28
+    400060: Caveman_Rigged_Complete:Bind_J29
+    400062: Caveman_Rigged_Complete:Bind_J3
+    400064: Caveman_Rigged_Complete:Bind_J30
+    400066: Caveman_Rigged_Complete:Bind_J4
+    400068: Caveman_Rigged_Complete:Bind_J5
+    400070: Caveman_Rigged_Complete:Bind_J6
+    400072: Caveman_Rigged_Complete:Bind_J7
+    400074: Caveman_Rigged_Complete:Bind_J8
+    400076: Caveman_Rigged_Complete:Bind_J9
+    400078: Caveman_Rigged_Complete:cape_bind
+    400080: Caveman_Rigged_Complete:cape_bind1
+    400082: Caveman_Rigged_Complete:cape_bind2
+    400084: Caveman_Rigged_Complete:cape_bind3
+    400086: Caveman_Rigged_Complete:cape_bind4
+    400088: Caveman_Rigged_Complete:cape_bind5
+    400090: Caveman_Rigged_Complete:cape_bind6
+    400092: Caveman_Rigged_Complete:cape_bind7
+    400094: Caveman_Rigged_Complete:cape_bind8
+    400096: Caveman_Rigged_Complete:cape_bind9
+    400098: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+    400100: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+    400102: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+    400104: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+    400106: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+    400108: Caveman_Rigged_Complete:Club
+    400110: Caveman_Rigged_Complete:Control_J
+    400112: Caveman_Rigged_Complete:Control_J1
+    400114: Caveman_Rigged_Complete:Control_J10
+    400116: Caveman_Rigged_Complete:Control_J11
+    400118: Caveman_Rigged_Complete:Control_J12
+    400120: Caveman_Rigged_Complete:Control_J13
+    400122: Caveman_Rigged_Complete:Control_J14
+    400124: Caveman_Rigged_Complete:Control_J15
+    400126: Caveman_Rigged_Complete:Control_J16
+    400128: Caveman_Rigged_Complete:Control_J17
+    400130: Caveman_Rigged_Complete:Control_J18
+    400132: Caveman_Rigged_Complete:Control_J19
+    400134: Caveman_Rigged_Complete:Control_J2
+    400136: Caveman_Rigged_Complete:Control_J20
+    400138: Caveman_Rigged_Complete:Control_J21
+    400140: Caveman_Rigged_Complete:Control_J22
+    400142: Caveman_Rigged_Complete:Control_J23
+    400144: Caveman_Rigged_Complete:Control_J24
+    400146: Caveman_Rigged_Complete:Control_J25
+    400148: Caveman_Rigged_Complete:Control_J26
+    400150: Caveman_Rigged_Complete:Control_J27
+    400152: Caveman_Rigged_Complete:Control_J28
+    400154: Caveman_Rigged_Complete:Control_J29
+    400156: Caveman_Rigged_Complete:Control_J3
+    400158: Caveman_Rigged_Complete:Control_J30
+    400160: Caveman_Rigged_Complete:Control_J4
+    400162: Caveman_Rigged_Complete:Control_J5
+    400164: Caveman_Rigged_Complete:Control_J6
+    400166: Caveman_Rigged_Complete:Control_J7
+    400168: Caveman_Rigged_Complete:Control_J8
+    400170: Caveman_Rigged_Complete:Control_J9
+    400172: Caveman_Rigged_Complete:joint1
+    400174: Caveman_Rigged_Complete:joint2
+    400176: Caveman_Rigged_Complete:polySurface15
+    400178: Caveman_Rigged_Complete:polySurface18
+    400180: Caveman_Rigged_Complete:Spartan_Model
+    4300000: Caveman_Rigged_Complete:Spartan_Model
+    4300002: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+    4300004: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+    4300006: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+    4300008: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+    4300010: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+    4300012: Caveman_Rigged_Complete:polySurface15
+    4300014: Caveman_Rigged_Complete:Bearclaw_Geo
+    4300016: Caveman_Rigged_Complete:polySurface18
+    4300018: Caveman_Rigged_Complete:Club
+    7400000: Run
+    7400002: Dash
+    7400004: Jump
+    7400006: Hit
+    7400008: Attack1
+    7400010: Attack2
+    7400012: Victory
+    7400014: DiveKick
+    7400016: Ranged
+    7400018: Idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Caveman_Rigged_Complete:Bearclaw_Geo
+    13700002: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+    13700004: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+    13700006: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+    13700008: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+    13700010: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+    13700012: Caveman_Rigged_Complete:Club
+    13700014: Caveman_Rigged_Complete:polySurface15
+    13700016: Caveman_Rigged_Complete:polySurface18
+    13700018: Caveman_Rigged_Complete:Spartan_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 72
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dash
+      takeName: Take 001
+      firstFrame: 76
+      lastFrame: 85
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 89
+      lastFrame: 102
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 106
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Take 001
+      firstFrame: 129
+      lastFrame: 153
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Victory
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 233
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DiveKick
+      takeName: Take 001
+      firstFrame: 182
+      lastFrame: 186
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Ranged
+      takeName: Take 001
+      firstFrame: 157
+      lastFrame: 178
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 4.9000001
+      lastFrame: 20.1700001
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Bind_J/Caveman_Rigged_Complete:Bearclaw_Bind_J1/Caveman_Rigged_Complete:Bearclaw_Bind_J2/Caveman_Rigged_Complete:Bearclaw_Bind_J3/Caveman_Rigged_Complete:Bearclaw_Bind_J4/Caveman_Rigged_Complete:Bearclaw_Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bearclaw_Geo
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J4/Caveman_Rigged_Complete:Bind_J5/Caveman_Rigged_Complete:Bind_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J7/Caveman_Rigged_Complete:Bind_J8/Caveman_Rigged_Complete:Bind_J9/Caveman_Rigged_Complete:Bind_J10/Caveman_Rigged_Complete:Bind_J11/Caveman_Rigged_Complete:Bind_J12/Caveman_Rigged_Complete:Bind_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J1/Caveman_Rigged_Complete:Bind_J2/Caveman_Rigged_Complete:Bind_J3/Caveman_Rigged_Complete:Bind_J14/Caveman_Rigged_Complete:Bind_J15/Caveman_Rigged_Complete:Bind_J16/Caveman_Rigged_Complete:Bind_J17/Caveman_Rigged_Complete:Bind_J18/Caveman_Rigged_Complete:Bind_J19/Caveman_Rigged_Complete:Bind_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J21/Caveman_Rigged_Complete:Bind_J22/Caveman_Rigged_Complete:Bind_J23/Caveman_Rigged_Complete:Bind_J24/Caveman_Rigged_Complete:Bind_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Bind_J/Caveman_Rigged_Complete:Bind_J26/Caveman_Rigged_Complete:Bind_J27/Caveman_Rigged_Complete:Bind_J28/Caveman_Rigged_Complete:Bind_J29/Caveman_Rigged_Complete:Bind_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind1/Caveman_Rigged_Complete:cape_bind2/Caveman_Rigged_Complete:cape_bind3
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind4/Caveman_Rigged_Complete:cape_bind5/Caveman_Rigged_Complete:cape_bind6
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8
+        weight: 1
+      - path: Caveman_Rigged_Complete:cape_bind/Caveman_Rigged_Complete:cape_bind7/Caveman_Rigged_Complete:cape_bind8/Caveman_Rigged_Complete:cape_bind9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanArmband
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanDress
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanHeadGear
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanLeftBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Caveman_Clothes:CavemanRightBoot
+        weight: 1
+      - path: Caveman_Rigged_Complete:Club
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J4/Caveman_Rigged_Complete:Control_J5/Caveman_Rigged_Complete:Control_J6
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J7/Caveman_Rigged_Complete:Control_J8/Caveman_Rigged_Complete:Control_J9/Caveman_Rigged_Complete:Control_J10/Caveman_Rigged_Complete:Control_J11/Caveman_Rigged_Complete:Control_J12/Caveman_Rigged_Complete:Control_J13
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J1/Caveman_Rigged_Complete:Control_J2/Caveman_Rigged_Complete:Control_J3/Caveman_Rigged_Complete:Control_J14/Caveman_Rigged_Complete:Control_J15/Caveman_Rigged_Complete:Control_J16/Caveman_Rigged_Complete:Control_J17/Caveman_Rigged_Complete:Control_J18/Caveman_Rigged_Complete:Control_J19/Caveman_Rigged_Complete:Control_J20
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J21/Caveman_Rigged_Complete:Control_J22/Caveman_Rigged_Complete:Control_J23/Caveman_Rigged_Complete:Control_J24/Caveman_Rigged_Complete:Control_J25
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29
+        weight: 1
+      - path: Caveman_Rigged_Complete:Control_J/Caveman_Rigged_Complete:Control_J26/Caveman_Rigged_Complete:Control_J27/Caveman_Rigged_Complete:Control_J28/Caveman_Rigged_Complete:Control_J29/Caveman_Rigged_Complete:Control_J30
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1
+        weight: 1
+      - path: Caveman_Rigged_Complete:joint1/Caveman_Rigged_Complete:joint2
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface15
+        weight: 1
+      - path: Caveman_Rigged_Complete:polySurface18
+        weight: 1
+      - path: Caveman_Rigged_Complete:Spartan_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
