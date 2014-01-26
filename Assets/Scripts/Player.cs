@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     public float dashSpeed = .5f;
     public int dashFrames = 10, FramsForKnockback = 10;
 
-
+    private StatesInherit SInherit;
 
     #endregion
 

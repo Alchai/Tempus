@@ -25,6 +25,6 @@ public class SciFiStateMachine : StatesInherit
         //else if ((plr.isHit))
         //    ChangeState("Hit");
         else
-            ChangeState("Dashing");
+            ChangeState("Dash");
 	}
 }
