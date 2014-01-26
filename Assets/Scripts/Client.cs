@@ -170,12 +170,20 @@ public class Client : MonoBehaviour
             //newobj.AddComponent<Player>();
             newobj.name = "me";
             me = newobj;
+            foreach (BlendGroup bg in GameObject.FindObjectsOfType<BlendGroup>())
+            {
+                bg.InitializeBlend();
+            }
         }
         else
         {
             newobj.name = "them";
            // newobj.AddComponent<Player>();
             them = newobj;
+            foreach (BlendGroup bg in GameObject.FindObjectsOfType<BlendGroup>())
+            {
+                bg.InitializeBlend();
+            }
         }
     }
 

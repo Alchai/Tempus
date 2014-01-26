@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1f6796f6c92ce1242939d554758703da
+guid: ee0ed6d866ae2b449b13992da7e3b7b5
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -7,7 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: SM_Lt_Platform
+    4300000: SM_Card_Birds_Mountain
     9500000: //RootNode
   materials:
     importMaterials: 1

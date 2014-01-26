@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1f6796f6c92ce1242939d554758703da
+guid: f92e26196b80b5f4c8af958dc291ed7f
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -7,7 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: SM_Lt_Platform
+    4300000: SM_Card_Clouds_B
     9500000: //RootNode
   materials:
     importMaterials: 1
